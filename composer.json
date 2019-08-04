@@ -1,0 +1,40 @@
+{
+    "name": "twigsession/twig-session",
+    "description": "A session plugin for twig.",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "twig session"
+    ],
+    "support": {
+        "docs": "???",
+        "issues": "???"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joe The Boss",
+            "homepage": "candid.co.uk"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "twigsession\\twigsession\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Twig Session",
+        "handle": "twig-session",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "???",
+        "class": "twigsession\\twigsession\\TwigSession"
+    }
+}
